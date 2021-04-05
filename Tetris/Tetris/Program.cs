@@ -9,11 +9,15 @@ namespace Tetris
             Console.SetWindowSize(40, 30);
             Console.SetBufferSize(40, 30);
 
-            Point p1 = new Point();
-            p1.x = 2;
-            p1.y = 3;
-            p1.c = '*';
-            p1.Draw();
+            /*Square s = new Square(2, 5, '*');
+            s.Draw();*/
+
+            Stick s = new Stick(2, 5, '*');
+            s.Draw();
+
+            /*Point p1 = new Point(2, 3, '*');
+            
+            p1.Draw();*/
 
             Console.ReadLine();
         }
